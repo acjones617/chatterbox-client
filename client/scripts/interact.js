@@ -1,6 +1,6 @@
 // make linter happy
-var $ = $;
-var app = app;
+// var $ = $;
+// var app = app;
 // end
 
 // interact with messageList
@@ -14,6 +14,7 @@ $(function(){
   });
 
   setInterval(function() {
+    console.dir(app);
     app.fetch();
   }, 2000);
 

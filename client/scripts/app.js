@@ -124,9 +124,3 @@ var app = {
 };
 
 app.init();
-
-var app = {
-  init: function() {},
-
-  send: function() {}
-};
